@@ -1,4 +1,4 @@
-##Customer Churn Prediction
+## Customer Churn Prediction
 
 An end-to-end Machine Learning project that predicts whether a telecom customer is likely to churn based on customer demographics, services, contract details, and billing information.
 
@@ -65,7 +65,7 @@ Some important observations include:
 
 > These findings represent associations in the dataset and should not be interpreted as causal relationships.
 
-##Machine Learning Models
+## Machine Learning Models
 
 The following classification models were evaluated:
 
@@ -74,7 +74,7 @@ The following classification models were evaluated:
 3. Random Forest
 4. Balanced Logistic Regression
 
-##Model Performance
+## Model Performance
 
 | Model | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
 |---|---:|---:|---:|---:|---:|
@@ -83,7 +83,7 @@ The following classification models were evaluated:
 | Random Forest | 78.35% | 61.86% | 48.13% | 54.14% | 82.06% |
 | Balanced Logistic Regression | 73.81% | 50.43% | 78.34% | 61.36% | 84.16% |
 
-##Handling Class Imbalance
+## Handling Class Imbalance
 
 The dataset contains more customers who stayed than customers who churned.
 
@@ -97,7 +97,7 @@ This improved churn recall from:
 
 Although accuracy and precision decreased, the model became much better at identifying customers who are actually likely to churn.
 
-##Threshold Optimization
+## Threshold Optimization
 
 The default classification threshold of `0.50` was evaluated along with several alternative thresholds.
 
@@ -135,7 +135,7 @@ Where:
 
 The model identifies a large proportion of customers who are likely to churn, making it useful for prioritizing customer retention efforts.
 
-##Feature Insights
+## Feature Insights
 
 Important features associated with churn in the Logistic Regression model include:
 
@@ -157,7 +157,7 @@ Important features associated with churn in the Logistic Regression model includ
 
 > Logistic Regression coefficients represent associations within the model and should not be interpreted as proof of causation.
 
-##Streamlit Application
+## Streamlit Application
 
 The project includes an interactive **Streamlit** web application.
 
@@ -178,7 +178,7 @@ The application returns:
 - **Prediction**
 - **Likely to Churn / Likely to Stay**
 
-##Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -189,7 +189,7 @@ The application returns:
 - Joblib
 - Streamlit
 
-##Project Structure
+## Project Structure
 
 ```text
 Customer-Churn-Prediction/
@@ -203,7 +203,7 @@ Customer-Churn-Prediction/
 └── README.md
 ```
 
-##How to Run
+## How to Run
 
 ### 1. Clone the repository
 
@@ -241,7 +241,7 @@ The application will open in your browser.
 - Customer retention recommendation system
 - Automated model monitoring
 
-##Author
+## Author
 
 **Hakeem Shaik**
 
