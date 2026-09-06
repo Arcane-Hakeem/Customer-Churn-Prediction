@@ -1,4 +1,4 @@
-#Customer Churn Prediction
+##Customer Churn Prediction
 
 An end-to-end Machine Learning project that predicts whether a telecom customer is likely to churn based on customer demographics, services, contract details, and billing information.
 
